@@ -32,7 +32,7 @@ let activityCookie =''
 $.hotFlag = false
 $.outFlag = false
 $.activityId = '78d0a8cb3612470f84bb61981609177f'
-$.shareUuid = 'a263d1301ae54718a5fce375a980082b'
+$.shareUuid = '6d51fa22d2be43a79f76597974aaaeea'
 $.temp = [];
 !(async () => {
   if (!cookiesArr[0]) {
