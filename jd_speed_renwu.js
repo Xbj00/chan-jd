@@ -117,7 +117,7 @@ async function signInit() {
     $.get(taskUrl('speedSignInit', {
       "activityId": "8a8fabf3cccb417f8e691b6774938bc2",
       "kernelPlatform": "RN",
-      "inviterId":"U44jAghdpW58FKgfqPdotA=="
+      "inviterId":"cLrx92R7MmlDxlXu+oaslQ=="
     }), async (err, resp, data) => {
       try {
         if (err) {
@@ -675,11 +675,9 @@ function taskGetUrl(function_id, body) {
 function invite2() {
   let t = +new Date()
   let inviterId = [
-    "5V7vHE23qh2EkdBHXRFDuA==",
-    "4AVQao+eH8Q8kvmXnWmkG8ef/fNr5fdejnD9+9Ugbec=",
-    "jbGBRBPo5DmwB9ntTCSVOGXuh1YQyccCuZpWwb3PlIc=",
-    "wXX9SjXOdYMWe5Ru/1+x9A==",
-    "mCvmrmFghpDCLcL3VZs53BkAhucziHAYn3HhPmURJJE="
+    "cLrx92R7MmlDxlXu+oaslQ==",
+    "+GRypv//YG33ftgEOqMvmw==",
+    "PvsYkuY8C4exnU0wOKlKpg=="
   ][Math.floor((Math.random() * 5))]
   let headers = {
     'Host': 'api.m.jd.com',
@@ -707,12 +705,9 @@ function invite2() {
 function invite() {
   let t = +new Date()
   let inviterId = [
-    "5V7vHE23qh2EkdBHXRFDuA==",
-    "jbGBRBPo5DmwB9ntTCSVOGXuh1YQyccCuZpWwb3PlIc=",
-    "wXX9SjXOdYMWe5Ru/1+x9A==",
-    "mCvmrmFghpDCLcL3VZs53BkAhucziHAYn3HhPmURJJE=",
-    "YQ5wwbSWDzNIudDC2OWvSw==",
-    "+vbK7QKOtpHM4dsSRqUPPX/11g/P71iBYh46dyiMuKk="
+    "cLrx92R7MmlDxlXu+oaslQ==",
+    "+GRypv//YG33ftgEOqMvmw==",
+    "PvsYkuY8C4exnU0wOKlKpg=="
   ][Math.floor((Math.random() * 6))]
   var headers = {
     'Host': 'api.m.jd.com',
